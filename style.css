@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    padding: 20%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#datepicker {
+    border: 2px solid black;
+    padding: 10px;
+    width: 200px;
+}
+
+#date {
+    border: none;
+    height: 30px;
+    width: 200px;
+}
+
+#monthpicker {
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    width: 200px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+#month {
+    width: 60%;
+}
+
+#leftarrow {
+    width: 20%;
+    float: left;
+}
+
+#rightarrow {
+    width: 20%;
+    float: right;
+}
+
+#week {
+    display: flex;
+}
+
+#week p {
+    margin: 10px;
+}
